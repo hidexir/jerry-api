@@ -1,0 +1,66 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+POST http://127.0.0.1:8080/user
+Content-Type: application/json
+
+{
+  "firstName": "hoge",
+  "lastName": "lkjdf",
+  "age": "lasdkf",
+  "sex": "men",
+  "mail": "hogeojgeo",
+  "tel": "09092309e0"
+}
+
+###
+GET http://127.0.0.1:8080/user/5d59554a64ef1e0fc6618e57
+Content-Type: application/json
+
+{
+  "firstName": "hoge",
+  "lastName": "lkjdf",
+  "age": "lasdkf",
+  "sex": "men",
+  "mail": "hogeojgeo",
+  "tel": "09092309e0"
+}
+
+###
+
+POST http://127.0.0.1:8080/event
+Content-Type: application/json
+
+{
+  "title": "hoge",
+  "day": "hoge",
+  "num": "hoge",
+  "numDescript": "hoge",
+  "manFee": "hoge",
+  "womanFee": "hoge",
+  "joinQA": "hoge",
+  "discription": "hoge",
+  "other": "hoge"
+}
+
+###
+POST http://127.0.0.1:8080/column
+Content-Type: application/json
+
+{
+  "title": "hoge",
+  "thumbnail": "hoge",
+  "body": "hoge",
+  "createdAt": "hoge",
+  "updateAt": "hoge"
+}
+
+###
+GET http://127.0.0.1:8080/column/5d5960a73f943f2116a4b7e2
+Content-Type: application/json
+
+###

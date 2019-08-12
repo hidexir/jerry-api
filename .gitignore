@@ -1,2 +1,7 @@
 target
 *.class
+dbdump
+db
+db
+.idea
+db
